@@ -2,17 +2,21 @@ import React,{useState} from 'react'
 const ItemContador = ({stock}) => {
     const[contador, setContador] = useState(1)
 
-    const Sumar = () => {
+    const Agregar = () => {
         if(contador < stock){
             setContador(contador + 1)
         }
     }
-        
-
-    return{
-           <div>
-           </div>
-    }
+    return(
+        <div>
+            <p>1</p>
+            <button>-</button>
+            <button onClick={Agregar}>+</button>
+            
+        </div>
+    )
+           
+    
 }
 
 export default ItemContador

@@ -2,12 +2,7 @@ import './App.css';
 import  NavBar from './components/Navbar/NavBar'
 import ListProducts from './components/ListProducts/ListProducts';
 
- 
 function App() {
-
-
-
-  
 
   return (
     //JSX

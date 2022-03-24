@@ -5,7 +5,7 @@ header.main-header{
     justify-content: space-between;
     box-shadow: 1px 5px 15px red;
     align-items: center;
-    background: black;
+    background: blue;
   }
   ul.navbar{
     list-style: none;
@@ -14,5 +14,6 @@ header.main-header{
   
    ul.navbar li{
      margin-right: 12px;
+     background: blue;
     }
      
