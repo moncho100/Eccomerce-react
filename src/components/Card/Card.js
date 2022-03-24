@@ -3,7 +3,7 @@ import './Card.css'
 import ItemContador from '../ItemCount/ItemCount'
 
 
-export default function Card({data}){
+ function Card({data}){
    const {titulo, precio , genero , talle, stock}= data
 
    return(
@@ -13,8 +13,10 @@ export default function Card({data}){
             <p>Precio : {precio}</p>
             <p>Genero : {genero}</p>
             <p>Talle : {talle}</p>
-            <ItemContador stock={stock}/>
+            <ItemContador stock={stock} initial={1}/>
         </div>
     )
 }
+
+export default Card
 
