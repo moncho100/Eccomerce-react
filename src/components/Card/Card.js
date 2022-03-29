@@ -8,7 +8,6 @@ import ItemContador from '../ItemCount/ItemCount'
 
    return(
         <div className='Card'>
-            
             <h2>Titulo : {titulo}</h2>
             <p>Precio : {precio}</p>
             <p>Genero : {genero}</p>

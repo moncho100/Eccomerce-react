@@ -8,7 +8,7 @@ function App() {
     //JSX
     <div className="App">
       <NavBar/>
-      <h2>Mujer</h2>
+      <h2>Ropa deportiva</h2>
       <ListProducts/>
 
     </div>
