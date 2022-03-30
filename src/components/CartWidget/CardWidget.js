@@ -1,7 +1,7 @@
 const CartWidget = () => {
     return(
         <div>
-            <p>ICONO DEL CARRITO</p>
+            <img src="/public/favicon.ico"/>
         </div>
     )
 }

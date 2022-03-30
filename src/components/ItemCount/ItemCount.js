@@ -8,7 +8,7 @@ import React,{useState} from 'react'
             }
         }
         const RestarContador = () =>{
-            if(contador > 0){
+            if(contador > initial){
                 setContador(contador -1)
             }
         }
@@ -17,9 +17,10 @@ import React,{useState} from 'react'
         }
         return(
             <div>
-                <p onClick={Agregar}>1</p>
+                <p>{contador}</p>
                 <button onClick={RestarContador}>-</button>
                 <button onClick={ItemContador}>+</button>
+                <button onClick={Agregar}>Agregar al carrito</button>
             </div>
         )
     }
