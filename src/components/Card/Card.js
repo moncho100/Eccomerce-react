@@ -8,7 +8,7 @@ import ItemContador from '../ItemCount/ItemCount'
 
    return(
         <div className='Card'>
-            <img src='' alt=''>{imagen}</img>
+            <img src={imagen} alt={titulo}/>
             <h2 className='Card_titulo'>Titulo : {titulo}</h2>
             <p className='Card_precio'>Precio : {precio}</p>
             <p className='Card_genero'>Genero : {genero}</p>

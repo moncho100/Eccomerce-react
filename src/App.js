@@ -12,7 +12,7 @@ function App() {
       <NavBar/>
       <h2>Ropa deportiva</h2>
       <ListProducts/>
-      
+      <ItemDetailContainer/>
 
     </div>
     

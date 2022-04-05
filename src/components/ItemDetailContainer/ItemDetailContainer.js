@@ -1,9 +1,9 @@
 import React, {useState, useEffect} from "react";
 import ItemDetail from "../ItemDetail/ItemDetail";
-
+import mockPoroductos from "../mockProducts/mockProducts";
 
 function ItemDetailContainer (){
-    let mockProducts= []
+    let mockPoroductos= []
 
     const mockItemID = 1;
 
@@ -12,7 +12,7 @@ function ItemDetailContainer (){
     const getProducts = () => {
         let promise = new Promise ((resolve, reject)=> {
             setTimeout(()=>{
-                resolve (mockProducts)}, 2000);
+                resolve (mockPoroductos)}, 2000);
         })
         let result = promise;
         return (result)
