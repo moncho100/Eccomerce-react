@@ -1,6 +1,8 @@
 import './App.css';
 import  NavBar from './components/Navbar/NavBar'
 import ListProducts from './components/ListProducts/ListProducts';
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
+
 
 function App() {
 
@@ -10,6 +12,7 @@ function App() {
       <NavBar/>
       <h2>Ropa deportiva</h2>
       <ListProducts/>
+      
 
     </div>
     

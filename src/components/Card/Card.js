@@ -4,14 +4,15 @@ import ItemContador from '../ItemCount/ItemCount'
 
 
  function Card({data}){
-   const {titulo, precio , genero , talle, stock}= data
+   const {imagen, titulo, precio , genero , talle, stock}= data
 
    return(
         <div className='Card'>
-            <h2>Titulo : {titulo}</h2>
-            <p>Precio : {precio}</p>
-            <p>Genero : {genero}</p>
-            <p>Talle : {talle}</p>
+            <img src='' alt=''>{imagen}</img>
+            <h2 className='Card_titulo'>Titulo : {titulo}</h2>
+            <p className='Card_precio'>Precio : {precio}</p>
+            <p className='Card_genero'>Genero : {genero}</p>
+            <p className='Card_talle'>Talle : {talle}</p>
             <ItemContador stock={stock} initial={1}/>
         </div>
     )

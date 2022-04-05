@@ -4,5 +4,8 @@
     padding: 10px;
     padding-bottom: 25px;
     margin: 5px;
-    
+}
+
+.Card_titulo{
+    color: red;
 }
