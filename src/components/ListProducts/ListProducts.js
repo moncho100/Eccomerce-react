@@ -3,7 +3,7 @@ import Card from "../Card/Card";
 import mockPoroductos from "../mockProducts/mockProducts";
 //terminan las importaciones
 
-const ListProducts =({children}) => {
+const ListProducts = () => {
     
         
         const[productos, setProductos]= useState([])
@@ -27,7 +27,7 @@ const ListProducts =({children}) => {
     
     return(
         <div className="container-cards">
-            <h2>{children}</h2>
+            <h2></h2>
 
             {productos.map((producto)=>{
                 const{id} = producto

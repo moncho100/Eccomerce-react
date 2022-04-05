@@ -9,6 +9,7 @@ const mockPoroductos =[{
     },
     {
         id: 2,
+        imagen: '/public/mujer-campera-adidas-essentials-logo.webp',
         titulo: 'Campera Adidas Essentials Logo',
         genero: 'Femenino',
         talle: 'm',
@@ -97,4 +98,4 @@ const mockPoroductos =[{
     }
 ]
 
-export default mockPoroductos
+export default mockPoroductos;

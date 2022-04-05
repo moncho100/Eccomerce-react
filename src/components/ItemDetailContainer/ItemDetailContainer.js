@@ -3,7 +3,7 @@ import ItemDetail from "../ItemDetail/ItemDetail";
 import mockPoroductos from "../mockProducts/mockProducts";
 
 function ItemDetailContainer (){
-    let mockPoroductos= []
+    
 
     const mockItemID = 1;
 

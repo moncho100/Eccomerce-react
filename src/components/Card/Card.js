@@ -1,7 +1,7 @@
 import React,{ useState, useEffect } from 'react'
 import './Card.css'
 import ItemContador from '../ItemCount/ItemCount'
-
+//Terminando importaciones
 
  function Card({data}){
    const {imagen, titulo, precio , genero , talle, stock}= data

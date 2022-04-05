@@ -2,7 +2,7 @@ import './App.css';
 import  NavBar from './components/Navbar/NavBar'
 import ListProducts from './components/ListProducts/ListProducts';
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
-
+import mockPoroductos from './components/mockProducts/mockProducts';
 
 function App() {
 
