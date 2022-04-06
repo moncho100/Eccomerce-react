@@ -8,14 +8,14 @@ function ItemDetail ({item}) {
     return(
         <div>
             <div>
-                <img src="/public/hombre-camiseta-1.webp" alt="Imagen del producto"></img>
+                <img src="./hombre-buzo-adidas-essentials-bog-logo.webp" alt="Imagen del producto"></img>
             </div>
             <div className="ItemDetail_details">
-                <p>{titulo}</p>
-                <p>{descripcion}</p>             
-                <p>{genero}</p>
-                <p>{talle}</p>
-                <p>{precio}</p>
+                <p>titulo: {titulo}</p>
+                <p>Descripcion: {descripcion}</p>             
+                <p>Genero: {genero}</p>
+                <p>Talle: {talle}</p>
+                <p>Precio:{precio}</p>
                 <ItemContador stock={stock} initial={1}/>               
             </div>
         </div>

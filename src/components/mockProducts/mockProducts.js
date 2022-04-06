@@ -1,6 +1,6 @@
 const mockPoroductos =[{
     id: 1,
-    imagen:'/public/hombre-buzo-adidas-essentials-bog-logo.webp',
+    imagen:'./hombre-buzo-adidas-essentials-bog-logo.webp',
     titulo:'Buzo Adidas Essentials Big Logo',
      genero:'Masculino',
       talle:'l' ,
@@ -9,7 +9,7 @@ const mockPoroductos =[{
     },
     {
         id: 2,
-        imagen: '/public/mujer-campera-adidas-essentials-logo.webp',
+        imagen: './mujer-campera-adidas-essentials-logo.webp',
         titulo: 'Campera Adidas Essentials Logo',
         genero: 'Femenino',
         talle: 'm',
@@ -18,6 +18,7 @@ const mockPoroductos =[{
     },
     {
         id:3,
+        imagen:'./hombre-chomba-underarmour-curry-reserve.webp',
         titulo:'Chomba Under Armour Curry Reserve',
         genero:'Masculino',
         talle:'XL - L - M',
@@ -26,6 +27,7 @@ const mockPoroductos =[{
     },
     {
         id:4,
+        imagen:'./mujer-pantalon-adidas-sereno.webp',
         titulo:'Pantalon Adidas Sereno',
         genero:'Femenino',
         talle:'S - M',
@@ -34,6 +36,7 @@ const mockPoroductos =[{
     },
     {
         id:5,
+        imagen:'./hombre-pantalon-adidas-essentials-logo.webp',
         titulo:'Pantalon Adidas Essentials Logo',
         genero:'Masculino',
         talle:'XL - L',
@@ -42,6 +45,7 @@ const mockPoroductos =[{
     },
     {
         id:6,
+        imagen:'./mujer-top-adidas-floral.webp',
         titulo:'Top Adidas Floral',
         genero:'Femenino',
         talle:'S - M -L',
@@ -50,6 +54,7 @@ const mockPoroductos =[{
     },
     {
         id:7,
+        imagen:'./hombre-remera-fila-logotype.webp',
         titulo:'Remera Fila Logotype',
         genero:'Masculino',
         talle:'M - L - XL',
@@ -58,6 +63,7 @@ const mockPoroductos =[{
     },
     {
         id:8,
+        imagen:'./mujer-calza-puma-moto.webp',
         titulo:'Calza Puma Moto',
         genero:'Femenino',
         talle:'M - L',
@@ -66,6 +72,7 @@ const mockPoroductos =[{
     },
     {
         id:9,
+        imagen:'./hombre-remera-salomon-retrotype.webp',
         titulo:'Remera Salomon Retrotype',
         genero:'Masculino',
         talle:'S - L',
@@ -74,6 +81,7 @@ const mockPoroductos =[{
     },
     {
         id:10,
+        imagen:'./mujer-calza-underarmour-fly-fast-printed.webp',
         titulo:'Calza Under Armour Fly Fast Printed',
         genero:'Femenino',
         talle:'S - L',
@@ -82,6 +90,7 @@ const mockPoroductos =[{
     },
     {
         id:11,
+        imagen:'./hombre-short-adidas-tennis-club.webp',
         titulo:'Short Adidas Tennis Club',
         genero:'Masculino',
         talle:'M - L',
@@ -90,6 +99,7 @@ const mockPoroductos =[{
     },
     {
         id:12,
+        imagen:'./mujer-remera-converse-patch.webp',
         titulo:'Remera Converse Patch',
         genero:'Femenino',
         talle:'S - M -L',
