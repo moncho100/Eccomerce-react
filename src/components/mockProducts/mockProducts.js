@@ -1,11 +1,11 @@
 const mockPoroductos =[{
-    id: 1,
-    imagen:'./hombre-buzo-adidas-essentials-bog-logo.webp',
-    titulo:'Buzo Adidas Essentials Big Logo',
-     genero:'Masculino',
-      talle:'l' ,
-      precio:420,
-      stock: 10
+        id: 1,
+        imagen:'./hombre-buzo-adidas-essentials-bog-logo.webp',
+        titulo:'Buzo Adidas Essentials Big Logo',
+        genero:'Masculino',
+        talle:'l' ,
+        precio:420,
+        stock: 10
     },
     {
         id: 2,

@@ -20,7 +20,7 @@ import DetailPage from '../../pages/detail'
             <p className='Card_talle'>Talle : {talle}</p>
             <ItemContador stock={stock} initial={1}/>
             <button>
-                <Link to={DetailPage}/>
+                <Link to={'/productos/${id}'}>Ir al detalle</Link>
             </button>
         </div>
     )
