@@ -8,8 +8,8 @@ function Navbar(){
     return(
         <header className= 'main-header'>
             <div className= 'container-logo'>
-                <img src="/src/img/logo.png" className='img-header'>
-                </img>
+                <img src='/public/logo512.png' alt='logo' className='img-header'/>
+                
             </div>
             <ul className='navbar'>
                 <li>

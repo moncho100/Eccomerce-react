@@ -1,10 +1,10 @@
 import './App.css';
 import  NavBar from './components/Navbar/NavBar'
-import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import HomePage from './pages/home';
 import Contact from './pages/contact';
 import DetailPage from './pages/detail';
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 function App() {
 
   return (

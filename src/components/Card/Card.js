@@ -1,6 +1,11 @@
 import React,{ useState, useEffect } from 'react'
 import './Card.css'
+import { Button } from 'bootstrap'
 import ItemContador from '../ItemCount/ItemCount'
+import { Link, NavLink } from 'react-router-dom'
+import DetailPage from '../../pages/detail'
+
+
 //Terminando importaciones
 
  function Card({data}){
@@ -14,6 +19,9 @@ import ItemContador from '../ItemCount/ItemCount'
             <p className='Card_genero'>Genero : {genero}</p>
             <p className='Card_talle'>Talle : {talle}</p>
             <ItemContador stock={stock} initial={1}/>
+            <button>
+                <Link to={DetailPage}/>
+            </button>
         </div>
     )
 }
